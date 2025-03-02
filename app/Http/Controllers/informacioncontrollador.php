@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class segundocontrollador extends Controller
+class informacioncontrollador extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -37,6 +37,7 @@ class segundocontrollador extends Controller
      */
     public function show(string $id)
     {
+        return view('vistas.partidos',['id'=>$id]);
         //
     }
 

@@ -60,10 +60,10 @@
 <header>
     <h1>Gestión de Eventos Deportivos </h1>
     <nav>
-        <a href="{{ route('primer.show',0) }}">Equipos</a>
-        <a href="{{ route('primer.edit',0) }}">Partidos</a>
-        <a href="{{ route('segundo.index',0) }}">Resultados</a>
-        <a href="{{ route('segundo.create',0) }}">Notificaciones</a>
+        <a href="{{ route('formulario.show',0) }}">Equipos</a>
+        <a href="{{ route('informacion.show',0) }}">Partidos</a>
+        <a href="{{ route('informacion.index',0) }}">Resultados</a>
+        <a href="{{ route('informacion.create',0) }}">Notificaciones</a>
         
         
         
@@ -75,10 +75,10 @@
     <p>Automatiza el registro de equipos, la programación de partidos y el seguimiento de resultados.</p>
     
         <button style="background-color: #180377; color: rgb(255, 254, 254); padding: 10px 20px; border: none; border-radius: 5px;">
-            <a href="{{ route('primer.index') }}" style="text-decoration: none; color: rgb(255, 255, 255);">Registrar</a>
+            <a href="{{ route('formulario.index') }}" style="text-decoration: none; color: rgb(255, 255, 255);">Registrar</a>
           </button>
           <button style="background-color: #180377; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
-            <a href="{{ route('primer.create') }}" style="text-decoration: none; color: rgb(255, 255, 255);">iniciar sesion</a>
+            <a href="{{ route('formulario.create') }}" style="text-decoration: none; color: rgb(255, 255, 255);">iniciar sesion</a>
           </button>
           
 </main>

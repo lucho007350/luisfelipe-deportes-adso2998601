@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class primercontrollador extends Controller
+class formulariocontrollador extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -49,7 +49,7 @@ class primercontrollador extends Controller
      */
     public function edit(string $id)
     {
-        return view('vistas.partidos',['id'=>$id]);
+        
         //
     }
 

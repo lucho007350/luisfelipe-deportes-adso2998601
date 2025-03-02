@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\primercontrollador;
-use App\Http\Controllers\segundocontrollador;
+use App\Http\Controllers\formulariocontrollador;
+use App\Http\Controllers\informacioncontrollador;
 
 Route::get('/', function () {
     return view('vistas.index');
 });
 
-route::resource('primer', primerControllador::class);
-route::resource('segundo', segundoControllador::class);
+route::resource('formulario', formularioControllador::class);
+route::resource('informacion', informacionControllador::class);
